@@ -205,3 +205,47 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ── DRISHTI: AI model binaries (download separately) ─────────────────────────
+ai/models/*.tflite
+ai/models/*.pt
+ai/models/*.onnx
+
+# ── Flutter / Dart ────────────────────────────────────────────────────────────
+# Generated files
+mobile/drishti_app/.dart_tool/
+mobile/drishti_app/.flutter-plugins
+mobile/drishti_app/.flutter-plugins-dependencies
+mobile/drishti_app/.packages
+
+# Build outputs
+mobile/drishti_app/build/
+mobile/drishti_app/android/.gradle/
+mobile/drishti_app/android/app/build/
+mobile/drishti_app/android/local.properties
+mobile/drishti_app/android/key.properties
+mobile/drishti_app/ios/.symlinks/
+mobile/drishti_app/ios/Flutter/App.framework/
+mobile/drishti_app/ios/Flutter/Flutter.framework/
+mobile/drishti_app/ios/Flutter/Flutter.podspec
+mobile/drishti_app/ios/Flutter/Generated.xcconfig
+mobile/drishti_app/ios/Flutter/app.flx
+mobile/drishti_app/ios/Flutter/app.zip
+mobile/drishti_app/ios/Flutter/engine
+mobile/drishti_app/ios/Pods/
+mobile/drishti_app/ios/Podfile.lock
+mobile/drishti_app/linux/flutter/generated_plugin_registrant.cc
+mobile/drishti_app/linux/flutter/generated_plugin_registrant.h
+mobile/drishti_app/linux/flutter/generated_plugins.cmake
+mobile/drishti_app/macos/Flutter/GeneratedPluginRegistrant.swift
+mobile/drishti_app/macos/Flutter/ephemeral/
+mobile/drishti_app/windows/flutter/generated_plugin_registrant.cc
+mobile/drishti_app/windows/flutter/generated_plugin_registrant.h
+mobile/drishti_app/windows/flutter/generated_plugins.cmake
+
+# Dart tool cache
+.dart_tool/
+pubspec.lock
+
+# Coverage
+mobile/drishti_app/coverage/

@@ -1,0 +1,44 @@
+name: drishti_app
+description: DRISHTI – AI-powered caregiver monitoring app for the visually impaired.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navigation & maps
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+
+  # HTTP & real-time
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+
+  # Local notifications (SOS alerts)
+  flutter_local_notifications: ^16.1.0
+
+  # Background services
+  flutter_background_service: ^5.0.5
+
+  # State management
+  provider: ^6.1.1
+
+  # UI helpers
+  cupertino_icons: ^1.0.6
+  flutter_map: ^6.0.1
+  latlong2: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
